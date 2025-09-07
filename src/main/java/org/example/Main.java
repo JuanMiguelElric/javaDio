@@ -26,7 +26,7 @@ public class Main {
     }*/
 
     //estudando keywords
-
+/*
     public static void main(String[] args){
         var scanner = new Scanner(System.in);
         System.out.println("Quando é 2 + 2 ?");
@@ -38,4 +38,19 @@ public class Main {
         System.out.printf("O resultado é 4, você errou? (%s)", !isWrong);
 
     }
+    */
+
+    public static void main(String[] args)
+    {
+       var value = 6;
+
+       var binary1 = Integer.toBinaryString(value);
+        System.out.printf("Primeiro número de operacao %s (representação binária %s) \n", value, binary1);
+        var value2 = 5;
+        var binary2 = Integer.toBinaryString(value2);
+        System.out.printf("Segundo número da operação %s (representação binária %s)\n", value, binary2);
+        System.out.printf("%s | %s =%s\n", value, value2, value | value2 );
+
+    }
+
 }
